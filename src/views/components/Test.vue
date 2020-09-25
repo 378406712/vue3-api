@@ -28,8 +28,8 @@ export default {
     // watchEffect(() => {
     //   console.log(`name is: ` + props.title)
     // })
-    const plus = ()=>{
-        emit('plus',100)
+    const plus = () => {
+      emit('plus', 100)
     }
     return {
       attrs,
