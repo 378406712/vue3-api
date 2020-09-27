@@ -25,6 +25,11 @@ const routes = [
     path: '/title',
     name: 'Title',
     component: () => import('../views/reactive/Title.vue')
+  },
+  {
+    path: '/live-cicle',
+    name: 'LiveCicle',
+    component: () => import('../views/live-cicle/Hooks.vue')
   }
 ]
 
