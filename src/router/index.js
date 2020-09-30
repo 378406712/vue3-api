@@ -30,6 +30,11 @@ const routes = [
     path: '/live-cicle',
     name: 'LiveCicle',
     component: () => import('../views/live-cicle/Hooks.vue')
+  },
+  {
+    path: '/pass',
+    name: 'GF',
+    component: () => import('../views/pass/GF')
   }
 ]
 
