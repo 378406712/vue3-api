@@ -19,10 +19,10 @@ export default {
       hobby = inject('hobby', '1'),
       hobnewColorby = inject('hobnewColorby', '1'),
       name = inject('name', '1'),
-      changeName = inject('changeName')
-    const changeRead = () => {
-      name.title = '改值成功'
-    }
+      changeName = inject('changeName'),
+      changeRead = () => {
+        name.title = '改值成功'
+      }
     return {
       theme,
       hobby,

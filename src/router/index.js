@@ -35,6 +35,11 @@ const routes = [
     path: '/pass',
     name: 'GF',
     component: () => import('../views/pass/GF')
+  },
+  {
+    path: '/ref',
+    name: 'Ref',
+    component: () => import('../views/ref/index')
   }
 ]
 
