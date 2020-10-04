@@ -45,6 +45,11 @@ const routes = [
     path: '/ref-tool',
     name: 'RefTool',
     component: () => import('../views/refTool/index')
+  },
+  {
+    path: '/advaced',
+    name: 'Advanced',
+    component: () => import('../views/advaced/index')
   }
 ]
 
